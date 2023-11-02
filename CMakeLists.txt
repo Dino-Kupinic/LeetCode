@@ -7,4 +7,5 @@ add_executable(LeetCode main.cpp
         Easy/TwoSum.cpp
         Easy/ValidParantheses.cpp
         Easy/BinarySearch.cpp
+        Easy/ValidAnagram.cpp
 )
