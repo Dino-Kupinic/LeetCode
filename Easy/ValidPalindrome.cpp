@@ -8,13 +8,10 @@ using namespace std;
 
 class Solution {
 public:
-  static void removeAndStrip(string& s) {
+  static void prepare(string &s) {
     s.erase(remove_if(s.begin(), s.end(), [](char c) {
       return !isalnum(c) || isspace(c);
     }), s.end());
-  }
-
-  static void toLowerCase(string& s) {
     transform(s.begin(), s.end(), s.begin(), [](char c) {
       return tolower(c);
     });
@@ -23,11 +20,8 @@ public:
   bool isPalindrome(string s) {
     string str{s};
 
-    removeAndStrip(s);
-    removeAndStrip(str);
-
-    toLowerCase(s);
-    toLowerCase(str);
+    prepare(s);
+    prepare(str);
 
     reverse(s.begin(), s.end());
 
