@@ -10,4 +10,5 @@ add_executable(LeetCode main.cpp
         Easy/ValidAnagram.cpp
         Easy/AddTwoIntegers.cpp
         Easy/RunningSum.cpp
+        Easy/ValidPalindrome.cpp
 )
