@@ -11,4 +11,5 @@ add_executable(LeetCode main.cpp
         Easy/AddTwoIntegers.cpp
         Easy/RunningSum.cpp
         Easy/ValidPalindrome.cpp
+        Easy/BestTimeToBuyAndSellStock.cpp
 )
