@@ -17,4 +17,5 @@ add_executable(LeetCode main.cpp
   Easy/BalancedBinaryTree.cpp
   Easy/FloodFill.cpp
   Easy/FloodFill.cpp
+  Easy/LowestCommonAncestor.cpp
 )
