@@ -1,8 +1,11 @@
 #include <iostream>
-#include "Easy/ValidParantheses.cpp"
+#include "Easy/FizzBuzz.cpp"
+
+using namespace std;
 
 int main() {
-  Solution s;
-  std::cout << std::boolalpha << s.isValid("([)]") << std::endl;
+  for (const auto result = Solution::fizzBuzz(3); const auto& i : result) {
+    std::cout << i;
+  }
   return 0;
 }

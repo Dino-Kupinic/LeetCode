@@ -12,4 +12,5 @@ add_executable(LeetCode main.cpp
         Easy/RunningSum.cpp
         Easy/ValidPalindrome.cpp
         Easy/BestTimeToBuyAndSellStock.cpp
+        Easy/FizzBuzz.cpp
 )
