@@ -8,10 +8,10 @@ using namespace std;
 
 class Solution {
 public:
-  bool isValid(string_view s) {
+  static bool isValid(const string_view s) {
     stack<char> stack;
 
-    for (char character: s) {
+    for (const char character: s) {
       switch (character) {
         case '(' :
           stack.push(')');
@@ -22,12 +22,12 @@ public:
         case '[' :
           stack.push(']');
           break;
-        default:
+        default: {
           if (stack.empty() || stack.top() != character) {
             return false;
-          } else {
-            stack.pop();
           }
+          stack.pop();
+        }
       }
     }
     return stack.empty();

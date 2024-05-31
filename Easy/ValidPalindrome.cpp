@@ -9,21 +9,21 @@ using namespace std;
 class Solution {
 public:
   static void prepare(string &s) {
-    s.erase(remove_if(s.begin(), s.end(), [](char c) {
+    erase_if(s, [](char c) {
       return !isalnum(c) || isspace(c);
-    }), s.end());
-    transform(s.begin(), s.end(), s.begin(), [](char c) {
+    });
+    ranges::transform(s, s.begin(), [](char c) {
       return tolower(c);
     });
   }
 
-  bool isPalindrome(string s) {
+  static bool isPalindrome(string s) {
     string str{s};
 
     prepare(s);
     prepare(str);
 
-    reverse(s.begin(), s.end());
+    ranges::reverse(s);
 
     return s == str;
   }

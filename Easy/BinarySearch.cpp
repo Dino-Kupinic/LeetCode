@@ -8,16 +8,17 @@ using namespace std;
 
 class Solution {
 public:
-  int search(vector<int> &nums, int target) {
+  static int search(const vector<int> &nums, const int target) {
     int low{0};
     int high = nums.size();
     do {
-      int middle = (low + (high - low) / 2);
-      int value = floor(nums[middle]);
+      const int middle = (low + (high - low) / 2);
+      const int value = floor(nums[middle]);
 
       if (value == target) {
         return middle;
-      } else if (value > target) {
+      }
+      if (value > target) {
         high = middle;
       } else {
         low = middle + 1;
