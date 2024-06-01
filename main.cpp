@@ -1,10 +1,10 @@
 #include <iostream>
-#include "Easy/FizzBuzz.cpp"
+#include "Easy/MiddleOfTheLinkedList.cpp"
 
 using namespace std;
 
 int main() {
-  for (const auto result = Solution::fizzBuzz(3); const auto& i : result) {
+  for (const auto result = Solution::middleNode(); const auto& i : result) {
     std::cout << i;
   }
   return 0;

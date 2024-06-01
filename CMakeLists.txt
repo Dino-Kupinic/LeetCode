@@ -19,4 +19,5 @@ add_executable(LeetCode main.cpp
         Easy/FizzBuzz.cpp
         Easy/NumberOfStepsToReduceAnumberToZero.cpp
         Medium/LowestCommonAncestor.cpp
+        Easy/MiddleOfTheLinkedList.cpp
 )
