@@ -20,4 +20,5 @@ add_executable(LeetCode main.cpp
         Easy/NumberOfStepsToReduceAnumberToZero.cpp
         Medium/LowestCommonAncestor.cpp
         Easy/MiddleOfTheLinkedList.cpp
+        Easy/RansomNote.cpp
 )

@@ -1,11 +1,8 @@
-#include <iostream>
-#include "Easy/MiddleOfTheLinkedList.cpp"
+#include "Easy/RansomNote.cpp"
 
 using namespace std;
 
 int main() {
-  for (const auto result = Solution::middleNode(); const auto& i : result) {
-    std::cout << i;
-  }
+  Solution::canConstruct("aa", "ab");
   return 0;
 }
