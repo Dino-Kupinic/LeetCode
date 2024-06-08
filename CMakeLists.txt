@@ -21,4 +21,5 @@ add_executable(LeetCode main.cpp
         Medium/LowestCommonAncestor.cpp
         Easy/MiddleOfTheLinkedList.cpp
         Easy/RansomNote.cpp
+        Easy/ReverseLinkedList.cpp
 )
