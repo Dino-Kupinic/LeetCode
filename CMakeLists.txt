@@ -24,4 +24,5 @@ add_executable(LeetCode main.cpp
         Easy/ReverseLinkedList.cpp
         Easy/MaxConsecutiveOnes.cpp
         Easy/FindNumbersWithEvenNumberOfDigits.cpp
+        Easy/SquaresOfASortedArray.cpp
 )
