@@ -23,4 +23,5 @@ add_executable(LeetCode main.cpp
         Easy/RansomNote.cpp
         Easy/ReverseLinkedList.cpp
         Easy/MaxConsecutiveOnes.cpp
+        Easy/FindNumbersWithEvenNumberOfDigits.cpp
 )
