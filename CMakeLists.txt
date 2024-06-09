@@ -22,4 +22,5 @@ add_executable(LeetCode main.cpp
         Easy/MiddleOfTheLinkedList.cpp
         Easy/RansomNote.cpp
         Easy/ReverseLinkedList.cpp
+        Easy/MaxConsecutiveOnes.cpp
 )
