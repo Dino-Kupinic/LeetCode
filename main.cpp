@@ -1,11 +1,11 @@
 #include <iostream>
 
-#include "Easy/MaxConsecutiveOnes.cpp"
+#include "Easy/DuplicateZeros.cpp"
 
 using namespace std;
 
 int main() {
-  cout << Solution::findMaxConsecutiveOnes({1,0,1,1,0,1}) << endl;
-  cout << Solution::findMaxConsecutiveOnes({1,1,0,1,1,1}) << endl;
+  std::vector v = {1,0,2,3,0,4,5,0};
+  Solution::duplicateZeros(v);
   return 0;
 }
