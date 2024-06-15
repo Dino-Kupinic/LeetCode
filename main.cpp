@@ -1,11 +1,14 @@
 #include <iostream>
 
-#include "Easy/DuplicateZeros.cpp"
+#include "Easy/MergeSortedArray.cpp"
 
 using namespace std;
 
 int main() {
-  std::vector v = {1,0,2,3,0,4,5,0};
-  Solution::duplicateZeros(v);
+  vector<int> a = {1,2,3,0,0,0};
+  int m = 3;
+  vector<int> b = {2,5,6};
+  int n = 3;
+  Solution::merge(a, m, b, n);
   return 0;
 }

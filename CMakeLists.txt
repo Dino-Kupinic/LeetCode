@@ -26,4 +26,5 @@ add_executable(LeetCode main.cpp
         Easy/FindNumbersWithEvenNumberOfDigits.cpp
         Easy/SquaresOfASortedArray.cpp
         Easy/DuplicateZeros.cpp
+        Easy/MergeSortedArray.cpp
 )
