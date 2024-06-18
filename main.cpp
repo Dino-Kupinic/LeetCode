@@ -1,14 +1,11 @@
 #include <iostream>
 
-#include "Easy/MergeSortedArray.cpp"
+#include "Easy/RemoveElement.cpp"
 
 using namespace std;
 
 int main() {
-  vector<int> a = {1,2,3,0,0,0};
-  int m = 3;
-  vector<int> b = {2,5,6};
-  int n = 3;
-  Solution::merge(a, m, b, n);
+  vector<int> a = {3,2,2,3};
+  Solution::removeElement(a, 3);
   return 0;
 }
