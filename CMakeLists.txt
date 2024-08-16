@@ -30,4 +30,5 @@ add_executable(LeetCode main.cpp
         Easy/RemoveElement.cpp
         "Easy/RemoveDuplicatesFromSortedArray  .cpp"
         Easy/CheckIfNandItsDoubleExist.cpp
+        Easy/ValidMountainArray.cpp
 )
