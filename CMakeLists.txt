@@ -28,8 +28,9 @@ add_executable(LeetCode main.cpp
         Easy/DuplicateZeros.cpp
         Easy/MergeSortedArray.cpp
         Easy/RemoveElement.cpp
-        "Easy/RemoveDuplicatesFromSortedArray  .cpp"
+        "Easy/RemoveDuplicatesFromSortedArray.cpp"
         Easy/CheckIfNandItsDoubleExist.cpp
         Easy/ValidMountainArray.cpp
         Easy/ReplaceElementsWithGreatestElementOnRightSide.cpp
+        Easy/MoveZeros.cpp
 )
