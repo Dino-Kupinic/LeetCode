@@ -1,11 +1,15 @@
 #include <iostream>
 
-#include "Easy/MoveZeros.cpp"
+#include "Easy/FindAllNumbersDisappearedInAnArray.cpp"
 
 using namespace std;
 
 int main() {
-  vector<int> a = {0,1,0,3,12};
-  Solution::moveZeroes(a);
+  vector<int> a = {4,3,2,7,8,2,3,1};
+
+  auto res = Solution::findDisappearedNumbers(a);
+  for (auto i : res) {
+    cout << i << " ";
+  }
   return 0;
 }

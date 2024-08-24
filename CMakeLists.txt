@@ -35,4 +35,5 @@ add_executable(LeetCode main.cpp
         Easy/MoveZeros.cpp
         Easy/SortArrayByParity.cpp
         Easy/HeightChecker.cpp
+        Easy/FindAllNumbersDisappearedInAnArray.cpp
 )
