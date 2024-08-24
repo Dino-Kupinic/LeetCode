@@ -34,4 +34,5 @@ add_executable(LeetCode main.cpp
         Easy/ReplaceElementsWithGreatestElementOnRightSide.cpp
         Easy/MoveZeros.cpp
         Easy/SortArrayByParity.cpp
+        Easy/HeightChecker.cpp
 )
