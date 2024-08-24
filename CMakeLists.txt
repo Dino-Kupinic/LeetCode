@@ -33,4 +33,5 @@ add_executable(LeetCode main.cpp
         Easy/ValidMountainArray.cpp
         Easy/ReplaceElementsWithGreatestElementOnRightSide.cpp
         Easy/MoveZeros.cpp
+        Easy/SortArrayByParity.cpp
 )
