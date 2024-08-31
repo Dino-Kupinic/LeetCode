@@ -36,4 +36,5 @@ add_executable(LeetCode main.cpp
         Easy/SortArrayByParity.cpp
         Easy/HeightChecker.cpp
         Easy/FindAllNumbersDisappearedInAnArray.cpp
+        Cards/Queue/MyCircularQueue.cpp
 )
